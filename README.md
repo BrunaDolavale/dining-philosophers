@@ -1,8 +1,7 @@
 # O Jantar dos Filósofos
 
-Implementação de programação concorrente em Python
+## Implementação de programação concorrente em Python
 
-```
 O problema do jantar dos filósofos é um exemplo ilustrativo de um problema comum de programação concorrente. É mais um problema clássico de sincronização multi-processo.
 
 O problema pode ser resumido como cinco filósofos sentados ao redor de uma mesa redonda, cada qual fazendo exclusivamente uma das duas coisas: comendo ou pensando. Enquanto está comendo, um filósofo não pode pensar, e vice-versa.
@@ -17,5 +16,3 @@ Para exemplificar, podemos citar um programa que necessita processar dois arquiv
 
 Em geral, o problema do jantar dos filósofos é um problema genérico e abstrato que é utilizado para explicar diversas situações indesejáveis que podem ocorrer em problemas que tem como principal idéia a exclusão mútua.
 Por exemplo, assim como no caso acima, deadlock/livelock é um conceito que pode ser bem explicado através do problema dos filósofos.
-
-```
